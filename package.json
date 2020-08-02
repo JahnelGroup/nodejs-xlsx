@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-xlsx",
+  "version": "1.0.0",
+  "description": "Demonstrate parsing an XLSX file using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Zgaljic (szgaljic@jahnelgroup.com)",
+  "license": "ISC",
+  "dependencies": {
+    "xlstream": "^2.1.0",
+    "xlsx": "^0.16.5"
+  }
+}
