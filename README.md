@@ -1,4 +1,4 @@
-# NodeJS Parsing XLSX Example
+a# NodeJS Parsing XLSX Example
 
 The biggest challenge with Excel files is that they are actually compressed documents which make them difficult to process efficiently. Most parsers will need to unpack the entire file into memory in order to process it. That can be unacceptable for large Excel documents. 
 
@@ -10,7 +10,7 @@ This repository demonstrates two ways to parse an XLSX file with NodeJS.
 The provided Test.xlsx file has 5000 rows, the results of both flows are shown below. 
 
 | Memory | xlsx (in-memory) | xlstream (streaming) | 
-| --- | --- |
+| --- | --- | --- |
 | rss | 77.14 MB | 15.26 MB |
 | heapTotal | 50.9 MB | 8.55 MB |
 | heapUsed | 35.18 MB | 3.32 MB |
