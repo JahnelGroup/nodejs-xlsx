@@ -1,4 +1,4 @@
-# NodeJS Parsing XLSX Example
+# NodeJS Excel (xlsx) Processing
 
 The biggest challenge with Excel files is that they are actually compressed documents which make them difficult to process efficiently. Most parsers will need to unpack the entire file into memory in order to process it. That can be unacceptable for large Excel documents. 
 
